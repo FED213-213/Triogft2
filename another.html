@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trio</title>
+    <link rel="stylesheet" href="another.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Sansita+Swashed:wght@300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="trit">
+       <div class="tt">
+         <a href=""><img src="image/boxicons--menu-filled.png" alt="" width="20px"></a>
+         <a href=""><img src="image/gotcha.png" alt="" class="trio"></a>
+        <input type="text" placeholder="type here" class="ipt">
+        <div class="het">
+            <a href="" class="nt"><u>Home.</u></a>
+            <a href="cont.html" class="nt"><u>store.</u></a>
+            <a href="" class="nt"><u>chat.</u></a>
+            <a href="" class="nt"><u>contacts.</u></a>
+            <a href="" class="nt"><u>Downloads.</u></a>
+        </div>
+        </div>
+
+        <div  class="goog">
+            <img src="image/renamegft.png" alt="" height="400vh">
+         </div>
+         
+    </section>
+    <div class="byd">
+    <div class="sit"><span class="gettis">Let's Get Started</span></div>
+    </div>
+    <div class="tracker">
+    <div class="slide-tracker">
+     <div class="slide"><img src="https://plus.unsplash.com/premium_photo-1661962646245-5ec5dd3d0bcd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bGFuc2NhcGV8ZW58MHx8MHx8fDA%3D" alt=""></div>
+     <div class="slide"><img src="https://images.unsplash.com/photo-1624267439301-8147fff1a23d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bGFuc2NhcGV8ZW58MHx8MHx8fDA%3D" alt=""></div>
+     <div class="slide"><img src="https://plus.unsplash.com/premium_photo-1697729581969-2876ffa65897?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bGFuc2NhcGV8ZW58MHx8MHx8fDA%3D" alt=""></div>
+     <div class="slide"><img src="https://images.unsplash.com/photo-1597834777623-acd73456aca1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGxhbnNjYXBlfGVufDB8fDB8fHww" alt=""></div>
+    
+    <div class="slide"><img src="https://plus.unsplash.com/premium_photo-1661962646245-5ec5dd3d0bcd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bGFuc2NhcGV8ZW58MHx8MHx8fDA%3D" alt=""></div>
+    </div>
+  <div class="ouria"> 
+     <div class="static">
+        <div><p class="serif fr"><u>Address</u></p>
+        <p class="serif">Canada, North America</p>
+        <p class="serif">46, Iskoot Cresent</p>
+        <p class="serif">Whitehorse, YT Y1A 0P5</p>
+        <p class="serif">Canada.</p></div>
+
+         <div>
+            <p class="serif fr"><u>Contact</u></p>
+        <p class="serif"><u>Discord</u></p>
+        <p class="serif"><a href="https://discord.com/users/1539361021108691006" target="_blank" class="ty">FED</a></p>
+        <p class="serif"><a href="https://discord.com/users/1459971760068759848" target="_blank" class="ty">Goalboy</a></p>
+        <p class="serif"><a href="https://discord.com/users/1549315823741702156" target="_blank" class="ty">Taiwo</a></p>
+         </div>
+         <div>
+        <p class="serif fr"><u>Crucial Links</u></p>
+        <p class="serif"><a href="https://shick.me/"target="_blank" class="ty">shick.me</a></p>
+        <p class="serif"><a href="https://www.youtube.com/"target="_blank" class="ty">YouTube</a></p>
+        <p class="serif"><a href="https://contra.com/jobs"target="_blank" class="ty">Contra</a></p>
+        <p class="serif"><a href="https://www.linkedin.com/"target="_blank" class="ty">linkedin</a></p>
+        </div>
+    </div>
+    <div class="gef">Trio website created originally by <a href="https://discord.com/users/1539361021108691006" target="_blank" class="ty" target="_blank"> FED </a> and <a href="https://discord.com/users/1459971760068759848" target="_blank" class="ty" target="_blank"> Goalboy </a> and joined by <a href="https://discord.com/users/1549315823741702156" class="ty" target="_blank">taiwo</a></div>
+    </div>
+
+    <div id="customAlert" class="alert-box">
+  <div class="alert-content">
+    <h2>Welcome to Trio 🚀</h2>
+    <p>Built by FED, Goalboy & Taiwo.</p>
+    <button id="closeAlert">Let's Go</button>
+  </div>
+</div></div>
+<script>
+    const btn = document.querySelector('.sit');
+const alertBox = document.getElementById('customAlert');
+const closeAlert = document.getElementById('closeAlert');
+
+btn.addEventListener('click', () => {
+  alertBox.classList.add('show');
+});
+
+closeAlert.addEventListener('click', () => {
+  alertBox.classList.remove('show');
+});
+
+// close when clicking outside
+alertBox.addEventListener('click', (e) => {
+  if(e.target === alertBox) alertBox.classList.remove('show');
+});
+</script>
+</body>
+</html>
