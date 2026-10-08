@@ -9,7 +9,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Sansita+Swashed:wght@300..900&display=swap" rel="stylesheet">
     <style>
-      /* SPLASH */
       #splash {
         position: fixed; inset: 0;
         background: #0a0a0a;
@@ -32,7 +31,6 @@
 </head>
 <body>
 
-    <!-- ADD THIS SPLASH HTML -->
     <div id="splash">
       <div class="splash-content">
         <img src="renamegft.png" alt="Trio" class="splash-logo">
@@ -107,14 +105,12 @@
     </div>
 
 <script>
-  // Splash - hide after 2 seconds
   window.addEventListener('load', () => {
     setTimeout(() => {
       document.getElementById('splash').classList.add('hide');
     }, 2000);
   });
 
-  // Alert box
   const btn = document.querySelector('.sit');
   const alertBox = document.getElementById('customAlert');
   const closeAlert = document.getElementById('closeAlert');
